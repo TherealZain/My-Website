@@ -32,7 +32,7 @@ let loadedObject = null;
 const loader = new GLTFLoader();
 
  loader.load(
-  "models/intergalactic_spaceship_only_model/scene.gltf",
+  "public/models/intergalactic_spaceship_only_model/scene.gltf",
 
   function (gltf) {
     loadedObject = gltf.scene;
@@ -79,7 +79,7 @@ starGeo.setAttribute(
   new THREE.Float32BufferAttribute(positions, 3)
 );
 
-let sprite = new THREE.TextureLoader().load("download.png", () => {
+let sprite = new THREE.TextureLoader().load("public/download.png", () => {
   console.log("stars are good")
   loadedResources++;
   checkResourcesLoaded();

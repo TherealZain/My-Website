@@ -8,12 +8,12 @@ html {
 }
 @font-face {
   font-family: "arcadeclassic";
-  src: url("fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+  src: url("public/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
 }
 
 @font-face {
   font-family: "atarian";
-  src: url("fonts/Atarian/SF Atarian System.ttf");
+  src: url("public/fonts/Atarian/SF Atarian System.ttf");
 }
 
 #loading-bar-container {
